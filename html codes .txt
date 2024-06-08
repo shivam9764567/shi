@@ -1,0 +1,19 @@
+html codes 
+
+if you want to 
+show an option 
+
+
+<form>
+        <input type="checkbox" id="cricket" name="activities" value="cricket">
+        <label for="cricket">Cricket</label><br>
+        
+        <input type="checkbox" id="cooking" name="activities" value="cooking">
+        <label for="cooking">Cooking</label><br>
+        
+        <input type="checkbox" id="reading" name="activities" value="reading">
+        <label for="reading">Reading</label><br>
+        
+        <br>
+        <input type="submit" value="Submit">
+    </form>

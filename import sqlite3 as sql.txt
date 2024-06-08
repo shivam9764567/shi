@@ -1,0 +1,6 @@
+import sqlite3 as sql
+con=sql.connect('amazon')
+cur=con.cursor()
+q='create table emp(emp_name text,emp_id int,gender text)'
+cur.execute(q)
+con.close()
